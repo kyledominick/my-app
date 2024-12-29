@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Century Gothic", Arial, sans-serif;
+  background-color: #f5f5f5;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Sticky Header */
+.sticky-header {
+  flex-shrink: 0; /* Prevent shrinking */
+  height: 5vh; /* Header takes 10% of the viewport height */
+  min-height: 50px; /* Minimum height for smaller screens */
+  background-color: #f5f5f5; /* Example header color */
+  color: #333;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Main Content */
+.main-content {
+  flex: 1; /* Allow the main content to grow and fill available space */
+  overflow-y: auto; /* Enable scrolling for content if necessary */
+  padding: 20px;
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
+}
+
+.main-content::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome/Safari */
+}
+
+/* Sticky Footer */
+.sticky-footer {
+  flex-shrink: 0; /* Prevent shrinking */
+  height: 5vh; /* Footer takes 10% of the viewport height */
+  min-height: 50px; /* Minimum height for smaller screens */
+  background-color: #f5f5f5; /* Example footer color */
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #007bff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .sticky-header, .sticky-footer {
+    height: 50px;
+  }
+
+  .theme-toggle {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
