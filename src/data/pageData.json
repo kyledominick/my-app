@@ -1,56 +1,64 @@
 {
-    "1": {
-      "content": [
-        "Welcome to the Home Page!",
-        "This is the first card's page content."
-      ]
-    },
-    "2": {
-      "content": [
-        "Welcome to the Star Page!",
-        "This is the second card's page content."
-      ]
-    },
-    "3": {
-      "content": [
-        "Welcome to the Favorite Page!",
-        "This is the third card's page content."
-      ]
-    },
-    "4": {
-      "content": [
-        "Welcome to the Settings Page!",
-        "This is the fourth card's page content."
-      ]
-    },
-    "5": {
-      "content": [
-        "Welcome to the Search Page!",
-        "This is the fifth card's page content."
-      ]
-    },
-    "6": {
-      "content": [
-        "Welcome to the Person Page!",
-        "This is the sixth card's page content."
-      ]
-    },
-    "7": {
-      "content": [
-        "Welcome to the Notifications Page!",
-        "This is the seventh card's page content."
-      ]
-    },
-    "8": {
-      "content": [
-        "Welcome to the Custom Icon 1 Page!",
-        "This is the eighth card's page content."
-      ]
-    },
-    "9": {
-      "content": [
-        "Welcome to the Custom Icon 2 Page!",
-        "This is the ninth card's page content."
-      ]
-    }
+  "1": {
+    "content": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python"
+    ]
+  },
+  "2": {
+    "content": [
+      "SQL",
+      "Access",
+      "Excel"
+    ]
+  },
+  "3": {
+    "content": [
+      "Welcome to the Favorite Page!",
+      "This is the third card's page content."
+    ]
+  },
+  "4": {
+    "content": [
+      "Welcome to the Settings Page!",
+      "This is the fourth card's page content."
+    ]
+  },
+  "5": {
+    "content": [
+      "Resume",
+      "Experience",
+      "Education",
+      "Skills",
+      "Projects"
+    ]
+  },
+  "6": {
+    "content": [
+      "Welcome to the Person Page!",
+      "This is the sixth card's page content."
+    ]
+  },
+  "7": {
+    "content": [
+      "Welcome to the Notifications Page!",
+      "This is the seventh card's page content."
+    ]
+  },
+  "8": {
+    "content": [
+      "Welcome to the Custom Icon 1 Page!",
+      "This is the eighth card's page content."
+    ]
+  },
+  "9": {
+    "content": [
+      "Welcome to the Custom Icon 2 Page!",
+      "This is the ninth card's page content.",
+      "3rd line of content",
+      "4th line of content"
+    ]
   }
+}

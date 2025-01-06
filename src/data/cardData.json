@@ -1,65 +1,65 @@
 [
   {
     "id": 1,
-    "title": "Projects",
     "color": "#cb5a56",
     "iconType": "material",
-    "icon": "Folder"
+    "icon": "Code",
+    "title": "Code"
   },
   {
     "id": 2,
-    "title": "Star",
+    "title": "Databases",
     "color": "#cd846d",
     "iconType": "material",
     "icon": "database"
   },
   {
     "id": 3,
-    "title": "Favorite",
+    "title": "User Experience",
     "color": "#d1b38f",
     "iconType": "material",
     "icon": "For_You"
   },
-    {
-      "id": 4,
-      "color": "#96a089",
-      "iconType": "material",
-      "icon": "Palette",
-      "title": "Graphics"
-    },
-    {
-      "id": 5,
-      "color": "#719eab",
-      "iconType": "material",
-      "icon": "Cloud",
-      "title": "Code"
-    },
-    {
-      "id": 6,
-      "color": "#6c839c",
-      "iconType": "material",
-      "icon": "Tactic",
-      "title": "Project Management"
-    },
-    {
-      "id": 7,
-      "color": "#79708b",
-      "iconType": "material",
-      "icon": "Piano",
-      "title": "Music"
-    },
-    {
-      "id": 8,
-      "color": "#474747",
-      "iconType": "material",
-      "icon": "Animation",
-      "title": "Animation"
-    },
-    {
-      "id": 9,
-      "color": "#bfbfbf",
-      "iconType": "material",
-      "icon": "Person",
-      "title": "Information"
-    }
-  ]
+  {
+    "id": 4,
+    "color": "#96a089",
+    "iconType": "material",
+    "icon": "Palette",
+    "title": "Graphics"
+  },
+  {
+    "id": 5,
+    "color": "#719eab",
+    "iconType": "material",
+    "icon": "Person",
+    "title": "About"
+  },
+  {
+    "id": 6,
+    "color": "#6c839c",
+    "iconType": "material",
+    "icon": "Tactic",
+    "title": "Project Management"
+  },
+  {
+    "id": 7,
+    "color": "#79708b",
+    "iconType": "material",
+    "icon": "Piano",
+    "title": "Music"
+  },
+  {
+    "id": 8,
+    "color": "#474747",
+    "iconType": "material",
+    "icon": "Animation",
+    "title": "Animation"
+  },
+  {
+    "id": 9,
+    "title": "Projects",
+    "color": "#bfbfbf",
+    "iconType": "material",
+    "icon": "Folder"
+  }
+]

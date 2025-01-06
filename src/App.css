@@ -28,10 +28,12 @@ body {
 }
 
 /* Main Content */
-.main-content {
-  flex: 1; /* Allow the main content to grow and fill available space */
+.main-content { 
+  display: grid;
+  place-items: center; /* Centers both vertically and horizontally */
+  height: 100vh; /* Ensures the container takes up the full viewport height */
   overflow-y: auto; /* Enable scrolling for content if necessary */
-  padding: 20px;
+  /* padding: 20px; */
   scrollbar-width: none; /* Hide scrollbar in Firefox */
   -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
 }
